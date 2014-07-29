@@ -2,10 +2,10 @@ gdt
 ===
 
 Command line utility for the ancient dungeon (pre-Zork) database
-Just have support for the _txcrypt reversible encryption for now.
+Can read the first 20 bytes of the database so far!
 
 Usage:  
-gdt --key <some_integer> --text "<some string>"  
+gdt --file dundat
 
 Build:  
 cd gdt  
